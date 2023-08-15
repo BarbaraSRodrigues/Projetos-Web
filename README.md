@@ -2,7 +2,6 @@
 Projetos feitos para o curso de Desenvolvimento Web, feito por Jorge Sant Ana e disponibilizado na Udemy.<br>
 Link para o curso: https://www.udemy.com/course/web-completo/
 <br>
-<br>
 
 ## Projetos e seus respectivos tópicos
 
