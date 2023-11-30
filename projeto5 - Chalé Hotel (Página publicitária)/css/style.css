@@ -1,0 +1,40 @@
+/* Estrutura do site */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Helvetica, "Trebuchet MS", sans-serif;
+    background: #fff url(../imagens/bg.png);
+    margin: 15px;
+}
+
+#container{
+    background: #ede9cc;
+}
+
+#topo{
+    position: relative;
+    background: #dbcd87;
+    height: 15.4em;
+    min-height: 250px;
+}
+
+#area-logo{
+    position: absolute;
+    background: url(../imagens/topo-imagem-principal.png) no-repeat;
+    width: 100%;
+    height: 250px;
+    top: 0;
+    left: 0;
+}
+
+#area-menu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(../imagens/topo-imagem-lateral.png) no-repeat;
+    width: 450px;
+    height: 250px;
+}
