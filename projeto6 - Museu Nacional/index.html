@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Museu Nacional</title>
+
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    </head>
+    <body>
+        
+        <!-- Inicio container -->
+        <div id="container">
+
+            <!-- Inicio header -->
+            <header>
+                <div id="logo">
+                    <h1><a href="">Museu Nacional</a></h1>
+                </div>
+
+                <!-- Inicio barra de navegacao -->
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Exposições</a></li>
+                        <li><a href="#">Pesquisa</a></li>
+                        <li><a href="#">Acervo</a></li>
+                        <li><a href="#">Vídeos</a></li>
+                        <li><a href="#">Fotos</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+                <!-- Fim barra de navegacao -->
+            </header>
+            <!-- Fim header -->
+
+            <!-- Inicio principal -->
+            <div id="principal">
+                <!-- Inicio conteudo -->
+                <div id="conteudo">
+                    <section id="capa">
+                        <img src="img/museu.png" alt="Foto de um Museu">
+                    </section>
+
+                    <section id="postagens">
+                        <article id="video">
+                            <h3>Conheça o Museu</h3>
+                            <iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc?si=E_aEDCUcX6TCB5mQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </article>
+
+                        <article id="mapa">
+                            <h3>Mapa: Encontre o Museu</h3>
+                            <iframe src="https://www.google.com/maps/d/embed?mid=1QVy1I2lgwCO8PrfeDbSzcx0ptOA&hl=en_US&ehbc=2E312F" width="310" height="170"></iframe>
+                        </article>
+
+                        <article id="exposicoes">
+                            <h3>Exposições</h3>
+                            <ul>
+                                <li>
+                                    <a href="#">Os assustadores insetos</a>
+                                </li>
+                                <li>
+                                    <a href="#">O crânio de Luzia, a mulher mais antiga do Brasil</a>
+                                </li>
+                                <li>
+                                    <a href="#">Preguiça gigante e tigre-dentes-de-sabre</a>
+                                </li>
+                                <li>
+                                    <a href="#">Plantas do Brasil Central</a>
+                                </li>
+                                <li>
+                                    <a href="#">Teresa Cristina: A Imperatriz Arqueóloga</a>
+                                </li>
+                                <li>
+                                    <a href="#">Arte Com Dinossauros - Paleoarte</a>
+                                </li>
+                                <li>
+                                    <a href="#"><strong>Veja todos (65)</strong></a>
+                                </li>
+                            </ul>
+                        </article>
+
+                        <article id="historia">
+                            <h3>200 anos de histórias</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, deserunt maiores maxime iusto molestias repellendus non ex cum labore praesentium quam in voluptas! Deserunt, magni! Voluptate a ad perspiciatis nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim iste laudantium temporibus ex aperiam dicta optio, delectus perspiciatis, totam sit at voluptatem hic tempora. Modi totam quibusdam iste eius repudiandae.</p>
+                            <a href="#"><strong>Leia mais</strong></a>
+                        </article>
+
+                    </section>
+
+                </div>
+                <!-- Fim conteudo -->
+
+                <!-- Inicio barra lateral -->
+                <aside>
+                    <section id="depoimento">
+                        <img src="img/depoimento.png" alt="Depoimento sobre o museu">
+                    </section>
+
+                    <section id="visita">
+                        <h4>Faça uma visita</h4>
+                        <form action="">
+                            <fieldset>
+                                <legend>Selecione uma data</legend>
+
+                                <label for="data">Data</label>
+                                <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+
+                                <label for="qtd">Qtd pessoas</label>
+                                <input class="campo" style="width: 30px;" type="text" id="qtd" value="1">
+                            </fieldset>
+
+                            <input class="botao" type="submit" value="Verificar disponibilidade">
+                        </form>
+                    </section>
+
+                    <section id="galeria">
+                        <h4>Galeria de Fotos</h4>
+
+                        <a href="">
+                            <img src="img/imagem1.jpg" alt="Imagem 1" height="93" width="93">
+                        </a>
+
+                        <a href="">
+                            <img src="img/imagem2.jpg" alt="Imagem 2" height="93" width="93">
+                        </a>
+
+                        <a href="">
+                            <img src="img/imagem3.jpg" alt="Imagem 3" height="93" width="93">
+                        </a>
+
+                        <a href="">
+                            <img src="img/imagem4.jpg" alt="Imagem 4" height="93" width="93">
+                        </a>
+                    </section>
+                </aside>
+                <!-- Fim barra lateral -->
+
+                <!-- Inicio rodape -->
+                <footer style="clear: both">
+                    <p>
+                        <a href="#">Home</a>
+                        <a href="#">Exposições</a>
+                        <a href="#">Pesquisas</a>
+                        <a href="#">Acervo</a>
+                        <a href="#">Vídeos</a>
+                        <a href="#">Fotos</a>
+                        <a href="#">Contatos</a>
+                    </p>
+                    <p>
+                        2019 <a href="#">Museu Nacional</a> - Todos os direitos reservados.
+                    </p>
+                </footer>
+                <!-- Fim rodape -->
+            </div>
+            <!-- Fim principal -->
+        </div>
+        <!-- Fim container -->
+
+    </body>
+</html>
